@@ -189,7 +189,6 @@ dns:
     - https://doh.pub/dns-query # 腾讯 DoH DNS
     #- https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
-
     - tls://1.1.1.1:853 # CloudFlare DoT DNS
     - tls://1.0.0.1:853 # CloudFlare DoT DNS
     - tls://dns.google:853 # Google DoT DNS
@@ -259,6 +258,7 @@ dns:
 #    type: select
 #    proxies:
 #      - Shadowsocks
+
 rules:
   # Netease Music Advertising
   - DOMAIN,admusicpic.music.126.net,REJECT
@@ -379,6 +379,7 @@ cfw-bypass-bak:
   - 172.31.*
   - 192.168.*
   - <local>
+
 # 系统代理跳过列表 起作用的
 cfw-bypass:
   # 直连列表
