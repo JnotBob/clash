@@ -78,8 +78,8 @@ DOMAIN-SUFFIX,daofeng.wifi169.com
 DOMAIN-SUFFIX,netch.org
 # Dreamacro
 DOMAIN-SUFFIX,release.dreamacro.workers.dev
-# 白月光
-DOMAIN,bygcloud.com
+# 
+DOMAIN-SUFFIX,bygcloud.com
 #
 DOMAIN-SUFFIX,ritdon.com
 # 绅士仓库
